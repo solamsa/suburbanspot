@@ -4,48 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suburban Spot | Specialist Roach Control & Household Protection</title>
+    <meta name="description" content="Suburban Spot offers expert German & American cockroach control in Maitland and Cape Town. Licensed, insured, pet-safe treatments. Free inspection. 24hr response. Call +27 60 648 2037.">
+    <meta name="keywords" content="roach control, cockroach exterminator, pest control Maitland, German cockroach, American cockroach, pest control Cape Town, household pest control">
+    <link rel="canonical" href="https://suburbanspot.co.za/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://suburbanspot.co.za/">
+    <meta property="og:title" content="Suburban Spot | Specialist Roach Control & Household Protection">
+    <meta property="og:description" content="Expert cockroach eradication in Maitland & Cape Town. Licensed, insured, pet-safe. Free inspection. 24hr response.">
+    <meta property="og:image" content="https://suburbanspot.co.za/og-image.jpg">
+    <meta property="og:locale" content="en_ZA">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Suburban Spot | Roach Control & Pest Protection">
+    <meta name="twitter:description" content="Expert cockroach eradication. Licensed, insured. Free inspection. Maitland & Cape Town.">
+    <meta name="twitter:image" content="https://suburbanspot.co.za/og-image.jpg">
+    <!-- Local business & service for search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Suburban Spot",
+      "description": "Specialist roach control and household pest protection. German and American cockroach eradication with medical-grade precision.",
+      "url": "https://suburbanspot.co.za",
+      "telephone": "+27606482037",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "20 Nyman Street",
+        "addressLocality": "Maitland",
+        "postalCode": "7405",
+        "addressCountry": "ZA"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Maitland" },
+        { "@type": "City", "name": "Cape Town" },
+        { "@type": "AdministrativeArea", "name": "Western Cape" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      "priceRange": "$$",
+      "image": "https://suburbanspot.co.za/logo1.png"
+    }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-
-        h1, h2, h3, .font-heading {
-            font-family: 'Lexend', sans-serif;
-        }
-
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-heading { font-family: 'Lexend', sans-serif; }
         .hero-gradient {
-            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)),
-                url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000');
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                        url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000');
             background-size: cover;
             background-position: center;
         }
-
+        .trust-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
         .trust-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
-        .trust-card:hover {
-            transform: translateY(-5px);
-        }
-
         #mobile-menu {
             transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
         }
-
         #mobile-menu.mobile-menu-open {
             max-height: 20rem;
             opacity: 1;
         }
-
         #mobile-menu:not(.mobile-menu-open) {
             max-height: 0;
             opacity: 0;
         }
-
-        #menu-icon,
-        #close-icon {
+        #menu-icon, #close-icon {
             transition: opacity 0.2s ease, transform 0.2s ease;
         }
     </style>
@@ -57,9 +91,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center gap-2">
-                    <div class="flex-shrink-0">
-                        <img src="logo1.png" alt="Suburban Spot Logo" class="h-16 w-auto object-contain">
-                    </div>
+                  <div class="flex-shrink-0">
+                    <img src="logo1.png" alt="Suburban Spot Logo" class="h-16 w-auto object-contain">
+                  </div>
                     <span class="text-2xl font-bold tracking-tight text-slate-800">Suburban<span class="text-blue-600">Spot</span></span>
                 </div>
                 <div class="hidden md:flex space-x-8 font-medium text-slate-600">
@@ -315,18 +349,11 @@
                                 <p class="text-sm text-blue-200">Operating Hours</p>
                                 <p class="text-xl font-bold">Mon - Sat: 8am - 5pm</p>
                             </div>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </div>
                             <div>
                                 <p class="text-sm text-blue-200">Address</p>
                                 <p class="text-xl font-bold">20 Nyman Street</p>
-                                <p class="text-xl font-bold">Maitland, 7405</p>
+                                <p class="text-xl font-bold">Maitland</p>
+                                <p class="text-xl font-bold">7405</p>
                             </div>
                         </div>
                     </div>
@@ -334,62 +361,68 @@
                 
                 <!-- Form Side -->
                 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-                <script type="text/javascript">
-                    (function () {
-                        emailjs.init("ehHbnzTqHBTeF3_aF");
-                    })();
-                </script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ehHbnzTqHBTeF3_aF"); // Replace with your Public Key
+   })();
+</script>
 
-                <form id="contact-form" class="space-y-6 p-12 lg:p-20 lg:w-1/2">
-                    <div class="grid grid-cols-2 gap-6">
-                        <div class="space-y-2">
-                            <label class="text-sm font-semibold text-slate-700">Full Name</label>
-                            <input type="text" name="from_name" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition">
-                        </div>
-                        <div class="space-y-2">
-                            <label class="text-sm font-semibold text-slate-700">Phone</label>
-                            <input type="tel" name="phone" required placeholder="+27000000000" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition">
-                        </div>
-                    </div>
-                    <div class="space-y-2">
-                        <label class="text-sm font-semibold text-slate-700">Pest Problem</label>
-                        <select name="pest_type" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition appearance-none">
-                            <option>German Cockroaches (Small)</option>
-                            <option>American Cockroaches (Large)</option>
-                            <option>General Infestation</option>
-                            <option>Preventive Maintenance</option>
-                        </select>
-                    </div>
-                    <div class="space-y-2">
-                        <label class="text-sm font-semibold text-slate-700">Service Address</label>
-                        <textarea name="address" required placeholder="Tell us your location..." rows="3" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition"></textarea>
-                    </div>
-                    <button type="submit" id="submit-btn" class="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg">
-                        Request Your Inspection
-                    </button>
-                    <p class="text-center text-xs text-slate-400">We respect your privacy. No spam, just professional service.</p>
-                </form>
+<form id="contact-form" class="space-y-6 p-12 lg:p-20 lg:w-1/2">
+    <div class="grid grid-cols-2 gap-6">
+        <div class="space-y-2">
+            <label class="text-sm font-semibold text-slate-700">Full Name</label>
+            <input type="text" name="from_name" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition">
+        </div>
+        <div class="space-y-2">
+            <label class="text-sm font-semibold text-slate-700">Phone</label>
+            <input type="tel" name="phone" required placeholder="+27000000000" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition">
+        </div>
+    </div>
+    <div class="space-y-2">
+        <label class="text-sm font-semibold text-slate-700">Pest Problem</label>
+        <select name="pest_type" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition appearance-none">
+            <option>German Cockroaches (Small)</option>
+            <option>American Cockroaches (Large)</option>
+            <option>General Infestation</option>
+            <option>Preventive Maintenance</option>
+        </select>
+    </div>
+    <div class="space-y-2">
+        <label class="text-sm font-semibold text-slate-700">Service Address</label>
+        <textarea name="address" required placeholder="Tell us your location..." rows="3" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none transition"></textarea>
+    </div>
+    <button type="submit" id="submit-btn" class="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg">
+        Request Your Inspection
+    </button>
+    <p class="text-center text-xs text-slate-400">We respect your privacy. No spam, just professional service.</p>
+</form>
 
-                <script>
-                    document.getElementById('contact-form').addEventListener('submit', function (e) {
-                        e.preventDefault();
-                        const btn = document.getElementById('submit-btn');
-                        btn.innerText = 'Sending Request...';
-                        btn.disabled = true;
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const btn = document.getElementById('submit-btn');
+        const originalText = btn.innerText;
+        
+        // UI Feedback
+        btn.innerText = 'Sending Request...';
+        btn.disabled = true;
 
-                        emailjs.sendForm('service_goormcg', 'template_veznhww', this)
-                            .then(function () {
-                                btn.innerText = 'Request Sent Successfully!';
-                                btn.classList.replace('bg-slate-900', 'bg-green-600');
-                                document.getElementById('contact-form').reset();
-                            }, function (error) {
-                                btn.innerText = 'Error! Try Again';
-                                btn.classList.replace('bg-slate-900', 'bg-red-600');
-                                btn.disabled = false;
-                                console.log('FAILED...', error);
-                            });
-                    });
-                </script>
+        // Send Email using EmailJS
+        emailjs.sendForm('service_goormcg', 'template_veznhww', this)
+            .then(function() {
+                btn.innerText = 'Request Sent Successfully!';
+                btn.classList.replace('bg-slate-900', 'bg-green-600');
+                document.getElementById('contact-form').reset();
+            }, function(error) {
+                btn.innerText = 'Error! Try Again';
+                btn.classList.replace('bg-slate-900', 'bg-red-600');
+                btn.disabled = false;
+                console.log('FAILED...', error);
+            });
+    });
+</script>
+
             </div>
         </div>
     </section>
@@ -416,7 +449,7 @@
 
     <script>
         // Mobile menu toggle
-        (function () {
+        (function() {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
             const menuIcon = document.getElementById('menu-icon');
@@ -424,7 +457,7 @@
             const mobileLinks = document.querySelectorAll('.mobile-nav-link');
 
             if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function () {
+                menuBtn.addEventListener('click', function() {
                     const isOpen = mobileMenu.classList.contains('mobile-menu-open');
                     mobileMenu.classList.toggle('mobile-menu-open');
                     menuIcon.classList.toggle('hidden', !isOpen);
@@ -432,8 +465,9 @@
                     menuBtn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
                 });
 
-                mobileLinks.forEach(function (link) {
-                    link.addEventListener('click', function () {
+                // Close menu when clicking a link (navigation)
+                mobileLinks.forEach(function(link) {
+                    link.addEventListener('click', function() {
                         mobileMenu.classList.remove('mobile-menu-open');
                         menuIcon.classList.remove('hidden');
                         closeIcon.classList.add('hidden');
@@ -442,6 +476,20 @@
                 });
             }
         })();
+
+        // Simple scroll reveal or interactions could go here
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            const originalText = btn.innerText;
+            btn.innerText = 'Sending...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerText = 'Request Sent!';
+                btn.classList.replace('bg-slate-900', 'bg-green-600');
+            }, 1500);
+        });
     </script>
 </body>
 </html>

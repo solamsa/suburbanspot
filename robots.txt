@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suburbanspot.co.za/sitemap.xml
